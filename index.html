@@ -17,11 +17,53 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/home_style.css" />
     <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon" />
   </head>
 
   <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html">
+            <img
+              src="images/upfound_logo.png"
+              width="55"
+              height="55"
+              alt="logo"
+            />
+          </a>
+          <a href="index.html">
+            <div class="text">UpFound</div>
+          </a>
+        </div>
+
+        <div class="main_menu">
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="product-details.html">About Us</a>
+            </li>
+            <li>
+              <a href="products.html">Products</a>
+            </li>
+            <li>
+              <a href="discover.html">Discover</a>
+            </li>
+            <li>
+              <a class="btn btn-light" href="#">
+                <i class="fas fa-user"></i> Log In
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
     <!-- Hero -->
     <section class="hero">
       <video
@@ -31,57 +73,11 @@
         loop
         autoplay
       ></video>
-
-      <!-- Navbar -->
-      <nav class="navbar">
-        <div class="container">
-          <div class="logo">
-            <a href="index.html">
-              <img
-                src="images/upfound_logo.png"
-                width="55"
-                height="55"
-                alt="logo"
-              />
-            </a>
-            <a href="index.html">
-              <div class="text">UpFound</div>
-            </a>
-          </div>
-
-          <div class="main_menu">
-            <ul>
-              <li>
-                <a href="index.html">Home</a>
-              </li>
-              <li>
-                <a href="#">About Us</a>
-              </li>
-              <li>
-                <a href="#">Products</a>
-              </li>
-              <li>
-                <a href="#">Discover</a>
-              </li>
-              <li>
-                <a class="btn btn-light" href="#">
-                  <i class="fas fa-user"></i> Log In
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <!-- End Navbar -->
-
       <!-- Hero Text -->
       <div class="text">
         <h2>
           <span class="hero-text1">Pitch and Grow.</span>
         </h2>
-        <!-- <h3>
-                
-            </h3> -->
         <p>
           Connect your product with real people and influencers. Pitch ideas,
           gather votes, and unlock new growth opportunities for your business.
@@ -95,6 +91,198 @@
       <!-- End Hero Text -->
     </section>
     <!-- End Hero -->
+
+    <!-- Overview Section -->
+    <section class="overview">
+      <div class="container">
+        <div class="header-text">
+          <h2 class="overview-header1">
+            Feature your product. Fuel your growth.
+          </h2>
+          <h3 class="overview-header2">
+            Empower your business with public voting and influencer partnershups
+            for real market impact.
+          </h3>
+        </div>
+        <div class="row">
+          <div class="bus-card">
+            <div class="bus-image">
+              <img
+                src="images/ov-business-upfound.avif"
+                alt="business image"
+                class="bus-actual-img"
+              />
+            </div>
+
+            <div class="bus-text">
+              <span class="text1">For businesses</span>
+              <span class="text2">Pitch to engaged, real audiences</span>
+              <span class="text3"
+                >Present your product, collect valuable feedback, and expand
+                your reach through transparent, public voting.</span
+              >
+            </div>
+
+            <div class="bus-button">
+              <button class="button">Start now</button>
+            </div>
+          </div>
+
+          <div class="inf-card">
+            <div class="inf-image">
+              <img
+                src="images/ov-influencer-upfound.avif"
+                alt="influencer image"
+                class="inf-actual-img"
+              />
+            </div>
+
+            <div class="inf-text">
+              <span class="text1">For influencers</span>
+              <span class="text2">Spot products with viral potential</span>
+              <span class="text3"
+                >Explore top-voted pitches, choose what fits your brand, and
+                earn by promoting your products to your followers.</span
+              >
+            </div>
+
+            <div class="inf-button">
+              <button class="button">Start now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Overview Section -->
+
+    <!-- Features Section -->
+    <section class="features">
+      <div class="container">
+        <h2 class="features-heading1">Features that fuel business growth</h2>
+        <h3 class="features-heading2">
+          See how our platform connects businesses, influencers, and the public
+          for shared success.
+        </h3>
+        <div class="features-grid">
+          <div class="card">
+            <img src="images/vote-upfound.svg" alt="voting" class="imga" />
+            <p>Transparent voting system</p>
+            <p>
+              Vote and share feedback on products. Your input helps determine
+              which ideas move forward.
+            </p>
+          </div>
+          <div class="card">
+            <img src="images/collab-upfound.svg" alt="collab" />
+            <p>Influencer collaboration</p>
+            <p>
+              Influencers find trending products to promote and earn revenue
+              with no upfront costs.
+            </p>
+          </div>
+          <div class="card">
+            <img src="images/reach-upfound.svg" alt="reach" />
+            <p>Wider business reach</p>
+            <p>
+              Businesses present products to a broad audience, gaining insights
+              and potential customers.
+            </p>
+          </div>
+          <div class="card">
+            <img src="images/rewards-upfound.svg" alt="rewards" />
+            <p>Engagement rewards</p>
+            <p>
+              Voters earn discounts and rewards, making participation valuable
+              for everyone.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Features Section -->
+
+    <!-- Metrics Section -->
+    <section class="metrics">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="text1">
+          <p>Metrics that drive momentum</p>
+          <p>
+            Track engagement, upvotes, and influencer reach. Transparent data
+            shows how products gain traction and connect with real audiences.
+          </p>
+        </div>
+        <div class="card">
+          <p>12K+</p>
+          <p>Product pitches submitted</p>
+          <p>
+            Thousands of businesses pitch ideas and connect with new customers
+            through public voting.
+          </p>
+        </div>
+        <div class="card">
+          <p>8.5K</p>
+          <p>Influencer collaborations</p>
+          <p>
+            Influencers partner with brands, helping products reach wider
+            audiences and boost visibility.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- End Metrics Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <a href="index.html">
+              <img src="images/upfound_logo.png" class="footer-logo" alt="logo" />
+            </a>
+            <div class="card">
+              <h4>Subscribe to Newsletter</h4>
+              <p>
+                Subscribe now to receive tips on how to take your business to
+                the next level.
+              </p>
+              <form>
+                <input type="email" id="email" placeholder="Enter your email" />
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+              </form>
+            </div>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+          </div>
+          <div>
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li></li><a href="#">Our Process</a></li>
+              <li></li><a href="#">Join Our Team</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Resources</h4>
+            <ul>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Research</a></li>
+              <li><a href="#">Recent Projects</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Contact</h4>
+            <ul>
+              <li><a href="#">hello@upfound.com</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer Section -->
+
+    <script src="js/main.js"></script>
   </body>
 
   <!-- For scrolling the navbar -->
